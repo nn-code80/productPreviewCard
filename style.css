@@ -129,18 +129,18 @@ transition: 0.3s ease;
        border-radius: 10px 10px 0 0;
     }
 
-.text{
+.container .text{
     min-width: 350px;
     position: relative;
     bottom: 4px;
+    border-radius: 0 0 10px 10px;
+   
 }
 
 button{
     padding:15px 0;
 }
-.attribution{
-  margin-top: 150px
-}
+
 
 }
 
@@ -148,5 +148,5 @@ button{
 
 .attribution { font-size: 11px; text-align: center;
 position: relative;
-bottom:200px;}
+bottom:100px;}
 .attribution a { color: hsl(228, 45%, 44%); }
