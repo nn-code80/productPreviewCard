@@ -1,0 +1,152 @@
+:root{
+   
+/* Primary */
+
+--Darkcyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+    
+/* Neutral */
+
+--Verydarkblue: hsl(212, 21%, 14%);
+--Darkgrayishblue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+/*  font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;   */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Cream);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+   
+}
+
+img{
+    max-width: 275px;
+    border-radius: 10px 0 0 5px;
+    max-height:400px;
+
+}
+
+.text{
+    max-width: 275px;
+    max-height: 400px;
+    position:relative;
+    bottom: 2px;
+    padding: 10px 35px;
+    background-color: var(--White);
+    border-radius: 0 5px 5px 0;
+    font-family: 'Fraunces', serif;
+   
+}
+
+.text h1{
+    margin: 20px 0 25px 0;
+    font-size: 1.7rem;
+    font-weight: 700px;
+}
+
+.top {
+    color:hsla(228, 12%, 48%, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase ;
+    font-size:.7rem;
+    letter-spacing: 2px;
+    margin: 20px 0;
+
+}
+.bodytext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    color:hsla(228, 12%, 48%, 0.7);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.pricing{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.price1{
+    font-size: 1.6rem;
+    color: var(--Darkcyan);
+    font-weight: 700;;
+}
+
+.price2{
+    font-size: .8rem;;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button{
+    display: block;
+    padding: 12px 0;
+    min-width: 100%;
+    margin: 20px auto;
+    border: none;
+    background-color:rgb(3, 47, 3);
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0; 
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+button:hover{
+background-color:rgb(4, 86, 4);
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+@media (max-width: 560px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .image img{
+       min-width: 350px;
+       max-height: 260px;
+       object-fit:cover;
+       object-position: 50% 47%;
+       border-radius: 10px 10px 0 0;
+    }
+
+.text{
+    min-width: 350px;
+    position: relative;
+    bottom: 4px;
+}
+
+button{
+    padding:15px 0;
+}
+.attribution{
+  margin-top: 150px
+}
+
+}
+
+
+
+.attribution { font-size: 11px; text-align: center;
+position: relative;
+bottom:200px;}
+.attribution a { color: hsl(228, 45%, 44%); }
