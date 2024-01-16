@@ -23,12 +23,14 @@ font-family: 'Montserrat', sans-serif;   */
 
 body{
     background-color: var(--Cream);
+    
 }
 .container{
     display: flex;
-    justify-content: center;
     min-height: 100vh;
+    justify-content: center;
     align-items: center;
+    
    
 }
 
@@ -140,13 +142,8 @@ transition: 0.3s ease;
 button{
     padding:15px 0;
 }
-
-
 }
 
-
-
-.attribution { font-size: 11px; text-align: center;
-position: relative;
-bottom:100px;}
+.attribution { font-size: 1rem; text-align: center;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
